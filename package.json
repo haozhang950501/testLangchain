@@ -6,9 +6,10 @@
   "main": "dist/ChatModel.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
-    "start": "node dist/ChatModel.js",
-    "start:agent": "node dist/AgentwithTools.js",
+    "watch": "tsc --watch",
+    "chat": "node dist/ChatModel.js",
+    "agent": "node dist/AgentwithTools.js",
+    "agent-ax": "node dist/AgentwithAX.js",
     "clean": "rimraf dist"
   },
   "dependencies": {
