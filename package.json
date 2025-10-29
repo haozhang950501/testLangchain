@@ -10,6 +10,7 @@
     "chat": "node dist/ChatModel.js",
     "agent": "node dist/AgentwithTools.js",
     "agent-ax": "node dist/AgentwithAX.js",
+    "agent-mult-ax": "node dist/mult-axAgent.js",
     "clean": "rimraf dist"
   },
   "dependencies": {

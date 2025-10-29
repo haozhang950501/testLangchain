@@ -26,7 +26,8 @@ const checkpointer = new MemorySaver();
 // 工具1: 检查Python环境
 const checkPythonEnvironmentTool = tool(
     async (version:string,config: LangGraphRunnableConfig) => {
-        try {                    
+        try {           
+              
             const { stdout, stderr } = await execAsync("python --version");
             if (stderr) {
                 const result = `❌ Python检查失败: ${stderr}`;
